@@ -4,7 +4,7 @@
     "description":"A sophomore at Union College majoring in ID Computer Science & Economics with interests in Software Development, Data Science/Analytics & their applications in Business Consulting",
     "image":"profilepic.jpg",
     "bio":"Use this bio section as your way of describing yourself and saying what you do, what technologies you like to use or feel most comfortable with, describing your personality, or whatever else you feel like throwing in.",
-    "contactmessage":"Here is where you should write your message to readers to have them get in contact with you.",
+    "contactmessage":"Warning! Please use email to contact me instead. I can be reached at diepvu.work@gmail.com",
     "email": "diepvu.work@gmail.com",
     "phone": "518-709-2045",
     "github":"https://github.com/vuminhdiep",
@@ -78,25 +78,25 @@
         "name":"Data Science Bootcamp",
         "organization":"Udemy",
         "issued":"Jun. 2021",
-        "description":"I love DS"
+        "url":"https://www.udemy.com/course/the-data-science-course-complete-data-science-bootcamp/"
       },
       {
         "name":"Machine Learning",
         "organization":"Standford",
         "issued":"Jun. 2021",
-        "description":"I love DS"
+        "url":"https://www.coursera.org/learn/machine-learning"
       },
       {
         "name":"PostGresSQL Bootcamp",
         "organization":"Udemy",
         "issued":"Jun. 2021",
-        "description":"I love DS"
+        "url":"https://www.udemy.com/course/the-complete-sql-bootcamp/"
       },
       {
-        "name":"Data Science Bootcamp",
+        "name":"Data Visualization with Tableau",
         "organization":"Udemy",
         "issued":"Jun. 2021",
-        "description":"I love DS"
+        "url":"https://www.udemy.com/course/tableau10/"
       }
     ]
   },
