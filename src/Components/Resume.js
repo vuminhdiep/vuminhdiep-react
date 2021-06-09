@@ -41,16 +41,16 @@ class Resume extends Component {
       );
     });
 
-    const skills = this.props.data.skills.map((skills) => {
-      const backgroundColor = this.getRandomColor();
-      const className = "bar-expand " + skills.name.toLowerCase();
-      const width = skills.level;
-
+    const coursework = this.props.data.coursework.map(function (coursework) {
       return (
-        <li key={skills.name}>
-          <span style={{ width, backgroundColor }} className={className}></span>
-          <em>{skills.name}</em>
-        </li>
+        <div key={coursework.name}>
+          <h3>{coursework.name}</h3>
+          <p className="info">
+            {coursework.organization}
+            <span>&bull;</span> <em className="date">{coursework.issued}</em>
+          </p>
+          <p>{coursework.description}</p>
+        </div>
       );
     });
 
@@ -85,19 +85,16 @@ class Resume extends Component {
         </Slide>
 
         <Slide left duration={1300}>
-          <div className="row skill">
+          <div className="row coursework">
             <div className="three columns header-col">
               <h1>
-                <span>Skills</span>
+                <span>Course Work</span>
               </h1>
             </div>
 
             <div className="nine columns main-col">
               <p>{skillmessage}</p>
-
-              <div className="bars">
-                <ul className="skills">{skills}</ul>
-              </div>
+              <p>{coursework}</p>
             </div>
           </div>
         </Slide>
