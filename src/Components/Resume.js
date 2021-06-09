@@ -44,12 +44,12 @@ class Resume extends Component {
     const coursework = this.props.data.coursework.map(function (coursework) {
       return (
         <div key={coursework.name}>
-          <h3>{coursework.name}</h3>
+          <a href={coursework.url}><h3>{coursework.name}</h3></a>
           <p className="info">
             {coursework.organization}
             <span>&bull;</span> <em className="date">{coursework.issued}</em>
           </p>
-          <p>{coursework.description}</p>
+          {/* <p>{coursework.url}</p> */}
         </div>
       );
     });
